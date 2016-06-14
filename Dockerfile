@@ -1,6 +1,6 @@
 FROM dsop/alpine-base
 
-RUN apk --update add ansible
+RUN apk --update add wget ansible
 
 RUN mkdir /opt/ && \
   cd /opt && \
